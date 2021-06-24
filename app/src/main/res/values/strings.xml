@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">AutomobileStore</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="confirm_new_password">Confirm New Password*</string>
+    <string name="new_password">New Password*</string>
+    <string name="current_password">Current Password*</string>
+    <string name="rentals">Rentals</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="update_password">Update Password</string>
+    <string name="security">Security</string>
+
+    <string name="update_profile">Update Profile</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="automotiv">AutoMotiv</string>
+    <string name="car_classification">Car Classification</string>
+    <string name="yes">Yes</string>
+    <string name="seaters_capacity">Seaters Capacity</string>
+    <string name="no">No</string>
+    <string name="blind_spot_sensor">Blind Spot Sensor</string>
+    <string name="heat">Heat</string>
+    <string name="post_ad">Post Ad</string>
+    <string name="used">Used</string>
+    <string name="model">Model</string>
+    <string name="manual">Manual</string>
+    <string name="engine_power_kw">Engine Power(kW)</string>
+    <string name="condition">condition</string>
+    <string name="visual_aids">Visual Aids</string>
+    <string name="sun_roof">Sun Roof</string>
+    <string name="manufacturing_year">Manufacturing year</string>
+    <string name="description">Description</string>
+    <string name="power_window">Power Window</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="transmission">Transmission</string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="electric">Electric</string>
+    <string name="color">color</string>
+    <string name="automatic">Automatic</string>
+    <string name="air_conditioning_heater">Air Conditioning /Heater</string>
+    <string name="fueltype">FuelType</string>
+    <string name="parking_sensors">Parking Sensors</string>
+    <string name="airbags">Airbags</string>
+    <string name="gps">Gps</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="amount">$ Amount</string>
+    <string name="todo">TODO</string>
+    <string name="new_car" />
+    <string name="Address">Address</string>
+</resources>

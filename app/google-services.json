@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490661613445",
+    "project_id": "automobilestore-782cb",
+    "storage_bucket": "automobilestore-782cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490661613445:android:edd1994f6e56f46242beec",
+        "android_client_info": {
+          "package_name": "com.example.automobilestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490661613445-7kc2cjol6rla5b9e41jitdia69hub5af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9gfZuAWn3x4klXa_7M881jTvNCc4AKt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490661613445-7kc2cjol6rla5b9e41jitdia69hub5af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
