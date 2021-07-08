@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">AutomobileStore</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+
+
+    <string name="title_home">Dashboard</string>
+    <string name="title_dashboard">Wishlist</string>
+    <string name="title_notifications">Account</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="confirm_new_password">Confirm New Password*</string>
@@ -48,6 +51,9 @@
     <string name="phone_number">Phone Number</string>
     <string name="amount">$ Amount</string>
     <string name="todo">TODO</string>
-    <string name="new_car" />
+    <string name="new_car">New</string>
     <string name="Address">Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_ad">update_ad</string>
 </resources>

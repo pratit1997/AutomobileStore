@@ -9,8 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AutomobileStore">
-        <activity android:name=".Activity.PostAd"></activity>
-        <activity android:name=".Activity.Wishlist" /> <!-- <activity android:name=".Activity.SplashScreen"></activity> -->
+        <activity android:name=".Activity.CarDialog"></activity>
+        <activity android:name=".Activity.Contact" />
+        <activity android:name=".Activity.CarDetails" />
+        <activity android:name=".Activity.UpdateAd" />
+        <activity android:name=".Activity.admin_signin" />
+        <activity android:name=".Activity.AdminHome" />
+        <activity android:name=".Activity.PostList" />
+        <activity android:name=".Activity.PostList" />
+        <activity android:name=".Activity.Filter" />
+        <activity android:name=".Activity.admin_signin" />
+        <activity android:name=".Activity.ProfileDetails" />
+        <activity android:name=".Activity.PostAd" /> <!-- <activity android:name=".Activity.SplashScreen"></activity> -->
         <activity android:name=".Activity.ForgotPassword" />
         <activity android:name=".Activity.CreateAccount" />
         <activity android:name=".MainActivity" /> <!-- <activity -->

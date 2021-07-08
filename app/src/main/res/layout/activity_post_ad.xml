@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentTop="true"
-        android:background="#3cb6d3">
+        android:background="#272670">
 
         <ImageView
             android:layout_width="50dp"
@@ -50,7 +50,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/uploadnew"
+                android:src="@drawable/uploadnew2"
                 android:contentDescription="@string/todo" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -931,7 +931,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:width="150dp"
-                        android:text="@string/new_car" />
+                        android:text="New" />
 
                     <RadioButton
                         android:id="@+id/used_car"
@@ -955,14 +955,13 @@
 
             <Button
                 android:id="@+id/post_ad"
-                style="@style/Widget.AppCompat.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="10dp"
-                android:backgroundTint="#3cb6d3"
+                android:backgroundTint="#272670"
                 android:singleLine="true"
                 android:text="@string/post_ad" />
 

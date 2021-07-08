@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="initial_range_slider_values">
+        <item>0.0</item>
+        <item>100000.0</item>
+    </array>
+    <array name="passenger_slider_values">
+        <item>1</item>
+        <item>8</item>
+    </array>
+</resources>

@@ -3,9 +3,9 @@
     <style name="Theme.AutomobileStore" parent="Theme.MaterialComponents.Light.NoActionBar">
 
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">#272670</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#707B7E</item>
     </style>
 
     <style name="myStyleText">
@@ -27,7 +27,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:layout_marginTop">20dp</item>
-<!--        <item name="android:layout_below">@+id/price_slider</item>-->
+        <!--        <item name="android:layout_below">@+id/price_slider</item>-->
         // You can change thickness here.
 
     </style>

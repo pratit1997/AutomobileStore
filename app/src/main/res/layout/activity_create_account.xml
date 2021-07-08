@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentTop="true"
-        android:background="#3cb6d3 ">
+        android:background="#272670">
 
         <ImageView
             android:layout_width="50dp"
@@ -127,7 +127,7 @@
 
     <Button
         android:id="@+id/create_btn"
-        style="@style/Widget.AppCompat.Button"
+
         android:layout_width="match_parent"
         android:layout_height="42dp"
         android:layout_gravity="center"
@@ -135,7 +135,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
 
-        android:backgroundTint="#3cb6d3"
+        android:backgroundTint="#272670"
         android:singleLine="true"
         android:text="Create Account" />
 
@@ -147,7 +147,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="7dp"
         android:text="Login"
-        android:textColor="#3cb6d3"
+        android:textColor="#272670"
         android:textSize="15sp"
         android:textStyle="bold" />
 

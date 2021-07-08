@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Filter">
+
+    <TextView
+        android:id="@+id/priceFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Price"></TextView>
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stepSize="100.0"
+        android:valueFrom="0.0"
+        android:valueTo="100000.0"
+        app:labelBehavior="withinBounds"
+        app:values="@array/initial_range_slider_values" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price_slider"
+        android:layout_marginLeft="10dp"
+        android:text="Min 00"></TextView>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price_slider"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@+id/to"
+        android:gravity="right"
+        android:text="Max 100000"></TextView>
+
+    <TextView
+        android:id="@+id/PassengerFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price_slider"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Passengers"></TextView>
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/Seaters_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from"
+        android:stepSize="1"
+        android:valueFrom="1"
+        android:valueTo="8"
+        app:labelBehavior="withinBounds"
+        app:values="@array/passenger_slider_values" />
+
+    <TextView
+        android:id="@+id/toSeaters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Seaters_slider"
+        android:layout_marginLeft="10dp"
+        android:text="Min 1"></TextView>
+
+    <TextView
+        android:id="@+id/fromSeaters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Seaters_slider"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/toSeaters"
+        android:gravity="right"
+        android:text="Max 8"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Seaters_slider"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Apply" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+</RelativeLayout>

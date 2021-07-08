@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="vertical"
-    tools:context=".ui.notifications.NotificationsFragment">
+    tools:context=".Fragment.ui.notifications.NotificationsFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_alignParentTop="true"
-        android:background="#3cb6d3 ">
+        android:background="#272670">
 
         <ImageView
             android:layout_width="50dp"
@@ -56,7 +56,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="344dp"
         android:layout_marginTop="15dp"
         android:hint="Password"
         app:endIconMode="password_toggle">
@@ -71,14 +71,13 @@
 
         <Button
             android:id="@+id/login"
-            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="10dp"
-            android:backgroundTint="#3cb6d3"
+            android:backgroundTint="#272670"
             android:singleLine="true"
             android:text="Login" />
 
@@ -90,7 +89,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Create Account"
-            android:textColor="#3cb6d3"
+            android:textColor="#272670"
             android:textSize="15sp"
             android:textStyle="bold" />
 
@@ -100,10 +99,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
             android:text="Forgot Password?"
-            android:textColor="#3cb6d3"
+            android:textColor="#272670"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="29dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Are you Admin?" />
+
+        <Button
+            android:id="@+id/adminSignin"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Admin SignIn"
+            android:textColor="#272670"
             android:textSize="15sp"
             android:textStyle="bold" />
+
+
+    </LinearLayout>
+
     </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
